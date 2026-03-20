@@ -1,0 +1,16 @@
+﻿<Window x:Class="PubNetTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PubNetTest"
+        mc:Ignorable="d"
+        Title="Pointless App" Height="450" Width="800">
+    <Grid Margin="10" Background="#FF04FBEA">
+        <Label Content="Will they or won't they? " HorizontalAlignment="Left" Margin="39,183,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <CheckBox x:Name="YesBox" Content="Yes" HorizontalAlignment="Left" Margin="201,192,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="NoBox" Content="No" HorizontalAlignment="Left" Margin="201,224,0,0" VerticalAlignment="Top"/>
+        <Button Content="Select" HorizontalAlignment="Left" Margin="201,244,0,0" VerticalAlignment="Top" FontSize="14" Height="30" Width="100" Click="Button_Click"/>
+
+    </Grid>
+</Window>
